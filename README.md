@@ -22,8 +22,8 @@ In order to distribute your application, all you need is to run:
 
 The script will:
 
-    1. Compile your front-end assets
-    2. Use [Statik](https://github.com/rakyll/statik) to version your assets as a Go file
-    3. Build your back-end, with your React application built-in the binary
+1. Compile your front-end assets
+2. Use [Statik](https://github.com/rakyll/statik) to version your assets as a Go file
+3. Build your back-end, with your React application built-in the binary
 
 `build.sh` is probably what you should customize if you're using something other than React for the `web` layer.
