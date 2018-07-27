@@ -6,5 +6,4 @@ cd web
 yarn && yarn build
 
 cd ..
-statik -src=web/build
-go build
+go generate && go build

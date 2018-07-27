@@ -9,6 +9,7 @@ import (
 	"github.com/rakyll/statik/fs"
 )
 
+//go:generate statik -src=web/build
 func main() {
 	statikFS, err := fs.New()
 	if err != nil {
