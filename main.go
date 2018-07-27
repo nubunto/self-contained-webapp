@@ -5,8 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	// TODO: replace with absolute import path!
-	_ "./statik"
+	_ "github.com/nubunto/self-contained-webapp/statik"
 	"github.com/rakyll/statik/fs"
 )
 
