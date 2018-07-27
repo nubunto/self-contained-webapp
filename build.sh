@@ -3,8 +3,8 @@
 set -e
 
 cd web
-yarn build
+yarn && yarn build
 
 cd ..
 statik -src=web/build
-go build -o app
+go build
