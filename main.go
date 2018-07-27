@@ -18,7 +18,7 @@ func main() {
 
 	http.Handle("/", http.FileServer(statikFS))
 	http.HandleFunc("/api", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, "oh hai")
+		fmt.Fprintf(w, "hello there!")
 	})
 	http.ListenAndServe(":8080", nil)
 }
